@@ -36,6 +36,11 @@ export default class HomeScreen extends React.Component {
             onPress={() => this.props.navigation.navigate("Profile")}>
             <Text>Goto Profiles</Text>
           </Button>
+          <Button full rounded primary
+            style={{ marginTop: 10 }}
+            onPress={() => this.props.navigation.navigate("Counter")}>
+            <Text>Goto Counter</Text>
+          </Button>
         </Content>
       </Container>
     );
